@@ -30,10 +30,7 @@ int main() {
         }
     }
 
-   printf("max value: %d\nmax value %d", *(arr), *(arr-3));
+   printf("max value: %d\nmax value %d", *(arr), *(arr+(nSize-1)));
 
-
-
- printf("%d", *(arr+(nSize-1)));
     return 0;
 }
